@@ -4,8 +4,8 @@ const formatString = function (string) {
   if (string.length >= 40) {
     newString = string.slice(0, 40);
     finalString = newString + '...';
+    return finalString;
   } else return string;
-  return finalString;
 };
 
 /*
